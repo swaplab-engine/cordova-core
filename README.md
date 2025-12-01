@@ -93,6 +93,20 @@ By pulling and using these images, you agree to the [SwapLab Terms & Conditions]
 **Reverse engineering, decompiling, or disassembling the proprietary build executables is strictly prohibited.**
 
 
+
+## 👨‍💻 About the Creator
+
+SwapLab is built and maintained by **EMI (EMI-INDO)**, a dedicated developer in the Hybrid Mobile App ecosystem.
+
+This service was built to solve the real-world build problems I faced while developing plugins and games.
+
+* **Cordova Plugins:** I maintain various open-source [Cordova Plugins on GitHub](https://github.com/EMI-INDO?tab=repositories).
+* **Game Assets:** Verified seller of [Construct 3 Addons](https://www.construct.net/en/game-assets/users/emiindo-378213).
+* **Community:** Active member of the [Construct Community Forums](https://www.construct.net/en/forum).
+
+
+
+
 ---
 <p align="center">
   Made with ❤️ by the <b>SwapLab Engineering Team</b>
