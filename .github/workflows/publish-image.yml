@@ -1,13 +1,13 @@
 name: Publish Core Image to GHCR
 
 on:
-  push:
-    branches:
-      - main
-    # Optional: Trigger on version tags (e.g., v1.0.0)
-    tags:
-      - 'v*.*.*'
   workflow_dispatch:
+    inputs:
+      version_tag:
+        description: 'Version Tag (example: v1.0.0)'
+        required: true
+        type: string
+        default: 'v2.0.0'
 
 env:
   REGISTRY: ghcr.io
@@ -46,11 +46,8 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            # Default tag 'latest' on main branch
+            type=raw,value=${{ inputs.version_tag }}
             type=raw,value=latest,enable={{is_default_branch}}
-            # Tag based on git tag (v1.0.0)
-            type=ref,event=tag
-            # Tag based on sha (optional for debugging)
             type=sha,format=long
           labels: |
             org.opencontainers.image.title=SwapLab Cordova Build Engine

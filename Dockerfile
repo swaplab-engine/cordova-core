@@ -74,8 +74,8 @@ RUN pip3 install semgrep
 # 3. Android SDK & Build Tools Installation
 # -------------------------------------------------------------------
 ARG ANDROID_SDK_VERSION=11076708
-ARG ANDROID_BUILD_TOOLS_VERSION=35.0.0
-ARG ANDROID_PLATFORM_VERSION=35
+ARG ANDROID_BUILD_TOOLS_VERSION=36.0.0
+ARG ANDROID_PLATFORM_VERSION=36
 ENV ANDROID_HOME=/usr/lib/android-sdk
 ENV PATH=$PATH:${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools
 
@@ -91,7 +91,7 @@ RUN yes | sdkmanager --licenses && \
 # -------------------------------------------------------------------
 # 4. Gradle Installation
 # -------------------------------------------------------------------
-ARG GRADLE_VERSION=8.11.1
+ARG GRADLE_VERSION=8.13
 ENV GRADLE_HOME=/opt/gradle/gradle-${GRADLE_VERSION}
 RUN curl -o gradle.zip -L https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip && \
     unzip -d /opt/gradle gradle.zip && \
@@ -100,7 +100,7 @@ RUN curl -o gradle.zip -L https://services.gradle.org/distributions/gradle-${GRA
 # -------------------------------------------------------------------
 # 5. Node.js, Cordova CLI, and iOS Support
 # -------------------------------------------------------------------
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
     && apt-get update && apt-get install -y --no-install-recommends nodejs \
     && rm -rf /var/lib/apt/lists/*
 
