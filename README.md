@@ -30,8 +30,8 @@ This image is built on top of **Ubuntu 22.04 (Jammy)** and includes the followin
 | **Ruby & CocoaPods**| Latest | iOS Dependency Management |
 
 ---
-* **Tag image:** [v1.0.0](https://github.com/swaplab-engine/capacitor-core/releases/tag/v1.0.0)
-* **Tag image:** [v2.0.0](https://github.com/swaplab-engine/capacitor-core/releases/tag/v2.0.0)
+* **Tag image:** [v1.0.0](https://github.com/swaplab-engine/cordova-core/releases/tag/v1.0.0)
+* **Tag image:** [v2.0.0](https://github.com/swaplab-engine/cordova-core/releases/tag/v2.0.0)
 
 ---
 
