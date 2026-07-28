@@ -18,7 +18,7 @@ This image (`swaplab-engine/cordova-core`) serves as the foundation for our buil
 
 This image is built on top of **Ubuntu 22.04 (Jammy)** and includes the following pre-configured environment:
 ---
-> img tag: v2.0.0
+> img tag: v2.0.1
 ---
 
 | Component | Details | Purpose |
@@ -32,6 +32,7 @@ This image is built on top of **Ubuntu 22.04 (Jammy)** and includes the followin
 ---
 * **Tag image:** [v1.0.0](https://github.com/swaplab-engine/cordova-core/releases/tag/v1.0.0)
 * **Tag image:** [v2.0.0](https://github.com/swaplab-engine/cordova-core/releases/tag/v2.0.0)
+* **Tag image:** [v2.0.1](https://github.com/swaplab-engine/cordova-core/releases/tag/v2.0.1)
 
 ---
 
