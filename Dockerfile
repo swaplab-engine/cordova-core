@@ -46,13 +46,6 @@ RUN freshclam
 # ENFORCEMENT POLICY:
 # If ClamAV (Virus), Trivy (Dependency), or Semgrep (Code) detects any
 # CRITICAL THREATS, the build process will be IMMEDIATELY ABORTED.
-#
-# PUBLIC TRANSPARENCY:
-# To ensure accountability, details of the threats causing the build failure 
-# are logged publicly (isolated & anonymized) on our Security Dashboard. 
-# Customers can verify our system integrity here:
-#
-# 📊 Dashboard: https://security-stats.swaplab.net
 # ===================================================================
 
 # -------------------------------------------------------------------

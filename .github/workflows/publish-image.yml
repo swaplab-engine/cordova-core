@@ -7,7 +7,7 @@ on:
         description: 'Version Tag (example: v1.0.0)'
         required: true
         type: string
-        default: 'v2.0.1'
+        default: 'v2.1.0'
 
 env:
   REGISTRY: ghcr.io
@@ -54,7 +54,7 @@ jobs:
             org.opencontainers.image.vendor=SwapLab Engine
             org.opencontainers.image.licenses=Proprietary
             org.opencontainers.image.source=https://github.com/swaplab-engine/cordova-core
-            org.opencontainers.image.url=https://swaplab.net/privacy-policy/terms-and-conditions.html
+            org.opencontainers.image.url=https://swaplab.net/privacy-policy/privacy-policy.html
             org.opencontainers.image.description=Official build engine. Public Core Image.
 
       - name: Build and Push Core Image
